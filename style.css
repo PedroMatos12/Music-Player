@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #001333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 32vh;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 632px;
+}
+
+main h3{
+    color: rgb(223, 239, 252);
+    padding-bottom: 10px;
+}
+
+#menu {
+    text-align: left;
+    width: 5%;
+    /* height: 26vh; */
+}
+
+#menu a {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 30px;
+    text-align: left;
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+
+#menu a:hover {
+    color: #b0dafc;
+    font-size: 17px;
+}
+
+#btnMenu {
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+summary::marker {
+    color: #001333;
+}
+
+.img-musica {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-color: #001333;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+#tempoEDuracao {
+    color: #979797;
+    opacity: 40%;
+}
+
+#nomeMusica {
+    margin-top: 5px;
+}
+
+#tempoMusica {
+    margin-top: 10px;
+}
+
+span {
+    background-color: aliceblue;
+    font-size: bold;
+    border-radius: 10px;
+    margin: 10px 10px 0px 10px;
+    transition: 0.7s;
+}
+
+span:hover {
+    background-color: #b0dafc;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        left: 37%;
+    }
+
+    #menu a {
+        margin: 5px 0px 5px 20px;
+    }
+
+    header {
+        height: 30vh;
+    }
+
+    .img-musica {
+        width: 160px;
+        height: 160px;
+    }
+
+    #tempoEDuracao {
+        opacity: 60%;
+    }
+
+    .img-musica {
+        width: 200px;
+        height: 200px;
+    }
+}
